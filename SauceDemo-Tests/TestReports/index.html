@@ -1,0 +1,3477 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Extent Framework</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+
+<body class="test-view bdd-report dark">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Framework</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">2024-02-19 5:53:58 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>											<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																																																							<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Login</p> 
+													<p class="duration text-sm">0h:0m:13s+433ms</p> 
+													<span class="datetime">17:53:58 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">Login</h5>
+															<span class='badge badge-success'>2024-02-19 5:53:58 PM</span>
+															<span class='badge badge-danger'>2024-02-19 5:54:11 PM</span>
+															<span class='badge badge-default'>0h:0m:13s+433ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful user for Username: standard_user and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful user for Username: problem_user and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as problem_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful user for Username: performance_glitch_user and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful user for Username: error_user and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as error_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful user for Username: visual_user and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as visual_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate unsuccessful user for Username: Blank and Password: Blank login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as Blank and Password as Blank</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Error message Epic sadface: Username is required on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Close icon in the error message on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Login page without any errors</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate unsuccessful user for Username: Blank and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as Blank and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Error message Epic sadface: Username is required on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Close icon in the error message on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Login page without any errors</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate unsuccessful user for Username: Test and Password: Blank login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as Test and Password as Blank</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Error message Epic sadface: Password is required on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Close icon in the error message on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Login page without any errors</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate unsuccessful user for Username: Test and Password: Test login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as Test and Password as Test</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Error message Epic sadface: Username and password do not match any user in this service on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Close icon in the error message on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Login page without any errors</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate unsuccessful user for Username: locked_out_user and Password: secret_sauce login into Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as locked_out_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Error message Epic sadface: Sorry, this user has been locked out. on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Close icon in the error message on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Login page without any errors</span>
+							</div>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">OrderPlacement</p> 
+													<p class="duration text-sm">0h:0m:44s+634ms</p> 
+													<span class="datetime">17:54:11 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">OrderPlacement</h5>
+															<span class='badge badge-success'>2024-02-19 5:54:11 PM</span>
+															<span class='badge badge-danger'>2024-02-19 5:54:56 PM</span>
+															<span class='badge badge-default'>0h:0m:44s+634ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for multiple products by the user for Username: standard_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Backpack product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bike Light product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Bike Light product from Large Prodcut page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 2 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for single item by the user for Username: standard_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Backpack product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for single item by the user for Username: performance_glitch_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Bike Light product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for single item by the user for Username: standard_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Bolt T-Shirt product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for single item by the user for Username: performance_glitch_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Fleece Jacket product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for single item by the user for Username: standard_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Onesie product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate successful order placement for single item by the user for Username: performance_glitch_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Test.allTheThings() T-Shirt (Red) product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Products</p> 
+													<p class="duration text-sm">0h:0m:47s+947ms</p> 
+													<span class="datetime">17:54:56 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">Products</h5>
+															<span class='badge badge-success'>2024-02-19 5:54:56 PM</span>
+															<span class='badge badge-danger'>2024-02-19 5:55:44 PM</span>
+															<span class='badge badge-default'>0h:0m:47s+947ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: standard_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Fleece Jacket product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Onesie product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Test.allTheThings() T-Shirt (Red) product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: problem_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as problem_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack product information on Products page</span>
+							</div>
+			<div class="details">Sauce Labs Backpack details are incorrect on Products page
+Assert.That(IsProductsSame, Is.EqualTo(true))
+  Expected: True
+  But was:  False</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: performance_glitch_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Fleece Jacket product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Onesie product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Test.allTheThings() T-Shirt (Red) product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: error_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as error_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Fleece Jacket product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Onesie product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Test.allTheThings() T-Shirt (Red) product information on Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: visual_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as visual_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack product information on Products page</span>
+							</div>
+			<div class="details">Sauce Labs Backpack details are incorrect on Products page
+Assert.That(IsProductsSame, Is.EqualTo(true))
+  Expected: True
+  But was:  False</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: standard_user and Password: secret_sauce on Single Product page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Backpack product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bike Light product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bolt T-Shirt product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Fleece Jacket product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Fleece Jacket details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Onesie product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Onesie details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Test.allTheThings() T-Shirt (Red) product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Test.allTheThings() T-Shirt (Red) details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: problem_user and Password: secret_sauce on Single Product page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as problem_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Backpack product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack details on Product page</span>
+							</div>
+			<div class="details">Sauce Labs Backpack details are incorrect on Product page
+Assert.That(IsProductsSame, Is.EqualTo(true))
+  Expected: True
+  But was:  False</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: performance_glitch_user and Password: secret_sauce on Single Product page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Backpack product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bike Light product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bolt T-Shirt product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Fleece Jacket product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Fleece Jacket details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Onesie product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Onesie details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Test.allTheThings() T-Shirt (Red) product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Test.allTheThings() T-Shirt (Red) details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: error_user and Password: secret_sauce on Single Product page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as error_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Backpack product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack details on Product page</span>
+							</div>
+			<div class="details">Sauce Labs Backpack details are incorrect on Product page
+Assert.That(IsProductsSame, Is.EqualTo(true))
+  Expected: True
+  But was:  False</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product information for the user for Username: visual_user and Password: secret_sauce on Single Product page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as visual_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Backpack product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Backpack details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bike Light product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bolt T-Shirt product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Fleece Jacket product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Fleece Jacket details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Onesie product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Onesie details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back to products on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Test.allTheThings() T-Shirt (Red) product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Test.allTheThings() T-Shirt (Red) details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ProductsSorting</p> 
+													<p class="duration text-sm">0h:0m:35s+754ms</p> 
+													<span class="datetime">17:55:44 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ProductsSorting</h5>
+															<span class='badge badge-success'>2024-02-19 5:55:44 PM</span>
+															<span class='badge badge-danger'>2024-02-19 5:56:20 PM</span>
+															<span class='badge badge-default'>0h:0m:35s+754ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product sorting functionality for the user for Username: standard_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify default sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Name (Z to A) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Name (Z to A) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Price (low to high) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Price (low to high) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Price (high to low) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Price (high to low) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Name (A to Z) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Name (A to Z) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product sorting functionality for the user for Username: problem_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as problem_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user verify default sorting order on the Products page</span>
+							</div>
+			<div class="details">Products sorting is incorrect for filter: default on Products page
+Assert.That(isListSame, Is.EqualTo(true))
+  Expected: True
+  But was:  False</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product sorting functionality for the user for Username: performance_glitch_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as performance_glitch_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify default sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Name (Z to A) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Name (Z to A) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Price (low to high) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Price (low to high) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Price (high to low) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Price (high to low) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user selects Name (A to Z) from the filter dropdown on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify Name (A to Z) sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product sorting functionality for the user for Username: error_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as error_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verify default sorting order on the Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user selects Name (Z to A) from the filter dropdown on the Products page</span>
+							</div>
+			<div class="details">unexpected alert open: {Alert text : Sorting is broken! This error has been reported to Backtrace.}
+  (Session info: chrome=121.0.6167.185)</div>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate product sorting functionality for the user for Username: visual_user and Password: secret_sauce on Products page</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as visual_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon fail-bg">
+									<i class="fa fa-times text-white"></i>
+								</span>
+								<span>The user verify default sorting order on the Products page</span>
+							</div>
+			<div class="details">Products sorting is incorrect for filter: default on Products page
+Assert.That(isListSame, Is.EqualTo(true))
+  Expected: True
+  But was:  False</div>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ShoppingCart</p> 
+													<p class="duration text-sm">0h:0m:4s+764ms</p> 
+													<span class="datetime">17:56:20 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">ShoppingCart</h5>
+															<span class='badge badge-success'>2024-02-19 5:56:20 PM</span>
+															<span class='badge badge-danger'>2024-02-19 5:56:25 PM</span>
+															<span class='badge badge-default'>0h:0m:4s+764ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">Validate add and remove products to the cart by the user for Username: standard_user and Password: secret_sauce from Sauce Demo application</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user is on the Login page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters Username as standard_user and Password as secret_sauce</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Login button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Backpack product from Prodcuts page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bike Light product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bike Light details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Bike Light product from Large Prodcut page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 2 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Remove button with Sauce Labs Bike Light product from Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 1 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Continue Shopping button from Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Sauce Labs Bolt T-Shirt product image from Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Sauce Labs Bolt T-Shirt details on Product page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Add to cart button with Sauce Labs Bolt T-Shirt product from Large Prodcut page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views 2 items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on the cart icon</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks Checkout button from Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user enters First Name as TestFN, Last Name as TestLN, Postal Code as A1A B2B on Checkout Your Information page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Continue button on Your Cart page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies products on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Payment Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Shipping Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Price Total Information on the Checkout Overivew page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Finish button</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user view Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies Succuess message</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clicks on Back Home button on Checkout Complete page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Products page</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user verifies zero items in the cart</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start and" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user clciks on Logout from menu options</span>
+							</div>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>The user views Sauce Demo login page</span>
+							</div>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>
